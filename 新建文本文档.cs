@@ -16,7 +16,10 @@ public class Solution
             nums1[i] = nums2[i - m];
         }
 
+
         Array.Sort(nums2);
+        Array.Sort(nums3);
+
 
     }
     static void Main(string[] args)
